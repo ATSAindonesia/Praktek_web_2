@@ -1,0 +1,108 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div dan Span</title>
+    <link rel="styesheet" href='/main.css'>
+</head>
+<body>
+    <form action="proses.php" method="POST">
+    <!--Header-->
+    <div id=header>
+        <h1>Judul/Header Website</h1>
+    </div>
+
+
+    <!--Main-->
+    <div>
+        <div id="link">
+            <ul>
+                <li><a href="#">London</a></li>
+                <li><a href="#">Paris</a></li>
+                <li><a href="#">Tokyo</a></li>
+            </ul>
+        </div>
+
+
+
+        <div id="content" style="border: 5px solid #ddd; padding: 10px; border-radius: 5px; box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); margin-right: 870px; margin-bottom: px;">
+            <label style="margin-right: 108px;" for="username">Nama Lengkap</label>
+            <input type="text" name="username" id="username"><br><br>
+
+            <label for="ttl" style="margin-right: 64px;">Tempat/Tanggal Lahir</label>
+            <input type="text" name="ttl" id="ttl"> / <input type="date" name="ttl" id="ttl" min="1989-01-01" max="1994-12-31"><br><br>
+
+            <label for="agama" style="margin-right: 160px;">Agama</label>
+            <select name="agama" id="agama">
+                <option value="agama">-Pilih-</option>
+                <option value="agama">Islam</option>
+                <option value="agama">Kristen</option>
+                <option value="agama">Khatolik</option>
+                <option value="agama">Hindu</option>
+                <option value="agama">Budha</option>
+                <option value="agama">Konghucu</option>
+            </select><br><br>
+
+            <label for="jeniskelamin" style="margin-right: 120px;">Jenis Kelamin</label>
+            <input type="radio" name="jeniskelamin" id="jeniskelamin"> <label for="jeniskelamin">Laki-Laki</label>
+            <input type="radio" name="jeniskelamin" id="jeniskelamin"> <label for="jeniskelamin">Perempuan</label><br><br>
+
+            <label for="noijazah" style="margin-right: 68px;">No. Ijazah SMA/MA</label>
+            <input type="text" name="noijazah" id="noijazah"><br><br>
+
+            <label for="foto">Foto (Ukuran File Maks.20KB)</label>
+            <input type="file" name="foto" id="foto"><br><br>
+
+            <label for="namaayah" style="margin-right: 126px;">Nama Ayah</label>
+            <input type="text" name="namaayah" id="namaayah"><br><br>
+            <label for="namaibu" style="margin-right: 136;">Nama Ibu</label>
+            <input type="text" name="namaibu" id="namaibu"><br><br>
+
+            <label for="alamat" style="margin-right: 151px;">Alamat</label>
+            <input type="text" name="alamat" id="alamat" style="height: 150px; width: 400px;"><br><br>
+
+            <label for="notelp" style="margin-right: 140;">No. Telp</label>
+            <input type="tel" name="notelp" id="notelp"><br><br>
+            
+            <label for="asalsklh" style="margin-right: 68px;">Nama Sekolah Asal</label>
+            <input type="text" name="asalsklh" id="asalsklh"><br><br>
+
+            <label for="alamat" style="margin-right: 147px;">Alamat</label>
+            <input type="text" name="alamat" id="alamat" style="height: 150px; width: 400px;"><br><br>
+
+            <label for="jurusan" style="margin-right: 95px;">Jurusan Dipilih</label>
+            <select name="agama" id="agama" style="width: 200px;">
+                <option value="agama">-Pilih-</option>
+                <option value="agama">Komputerisasi Akuntansi</option>
+                <option value="agama">Administrasi Bisnis</option>
+                <option value="agama">Teknik Komputer Kontrol</option>
+                <option value="agama">Teknik Listrik</option>
+                <option value="agama">Mesin Otomotif</option>
+                <option value="agama">Perkeretaapian</option>
+                <option value="agama">Teknologi Informasi</option>
+                <option value="agama">Akuntansi</option>
+            </select><br>,<br>
+
+            <label for="informasi" style="margin-right: 40;">Tahu informasi ini dari:</label>
+            <input type="checkbox" name="informasi" id="informasi"> <label for="informasi">Koran</label>
+            <input type="checkbox" name="informasi" id="informasi"> <label for="informasi">Website</label>
+            <input type="checkbox" name="informasi" id="informasi"> <label for="informasi">Televisi</label>
+            <input type="checkbox" name="informasi" id="informasi"> <label for="informasi">Radio</label>
+            <input type="checkbox" name="informasi" id="informasi"> <label for="informasi">Teman</label>
+
+            <div style="position: relative; right: -34%;">
+            <input type="submit" name="daftar" id="daftar" value="DAFTAR"> 
+            <input type="reset" name="batal" id="batal" value="BATAL">
+        </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <div>
+
+        <div>
+            <p><i>Copiright@Alfnsus William_234311005 2023</i></p>
+        </div>
+    </div>
+</body>
+</html>
